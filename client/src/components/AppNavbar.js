@@ -1,18 +1,17 @@
 import React from "react";
 import {
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
   NavLink
 } from "shards-react";
 
-export default class NavExample extends React.Component {
+export default class AppNavbar extends React.Component {
 
   render() {
     return (
-      <Navbar type="dark" theme="Dark" expand="md">
+      <Navbar type="dark" theme="dark" expand="md" className="top-nav">
         <NavbarBrand href="#">Jing Cheng</NavbarBrand>
           <Nav navbar className="ml-auto">
             <NavItem>
