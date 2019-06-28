@@ -3,7 +3,8 @@ import AppNavbar from './components/AppNavbar';
 import Header from './components/Header';
 import Quote from './components/Quote';
 import About from './components/About';
-import Spently from './components/Spently';
+import Skills from './components/Skills';
+// import Spently from './components/Spently';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -15,7 +16,8 @@ function App() {
       <Header></Header>
       <Quote></Quote>
       <About></About>
-      <Spently></Spently>
+      <Skills></Skills>
+      {/* <Spently></Spently> */}
     </div>
   );
 }
