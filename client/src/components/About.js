@@ -18,7 +18,8 @@ export default class About extends React.Component{
                                 but before that I was playing Monster Hunter World and Apex Legends. 
                                 Guitar is a hobby of mine as well as going to the gym. I am also
                                 highly likely to take the title of: "The person you know who can eat the most food"
-                                from your friend who's known for that.
+                                from your friend who's known for that. Oh right! I almost forgot to mention, I'm
+                                a back-end developer.
                             </p>
                         </div>
                     </div>

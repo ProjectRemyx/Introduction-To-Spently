@@ -21,11 +21,6 @@ export default class AppNavbar extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink href="#">
-                Introduction
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">
                 About Me
               </NavLink>
             </NavItem>
