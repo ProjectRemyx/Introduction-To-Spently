@@ -2,6 +2,11 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+p{
+  color: white;
+
+}
+
 /* Header CSS */
 .header-background{
   background-image: url("./imgs/header2.jpg");
@@ -14,7 +19,7 @@ body{
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
@@ -34,9 +39,10 @@ body{
   }
 
 /* Quote CSS */
-  .quote-background{
-    background-color: black;
-  }
+.quote-background{
+  background-color: black;
+  margin: 0.1em 0 0.1em 0;
+}
   
   .quote-container{
     height: 100%;
@@ -46,10 +52,69 @@ body{
     background: rgba(0, 0, 0, 0.5);
     padding: 2rem 5rem 2rem 5rem;
   }
-  .quote-container h3{
+    .quote-container h3{
+      color: white;
+    }
+    .quote-container h2{
+      color: white;
+      font-family: 'Courgette', cursive;
+    }
+
+/* About CSS */
+.about-background{
+  background-image: url("./imgs/e7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 6rem;
+}
+  .about-container h2{
+    color: white;
+    margin: 0.5em 0 0.5em 0;
+  }
+
+.about-row-item{
+  margin: 0 5em 0 5em;
+  max-width: 500px;
+}
+  .about-row-item p{
+    font-size: 1.25em;
+  }
+  .about-row-item li{
+    font-size: 1.5em;
     color: white;
   }
-  .quote-container h2{
+
+.about-container2{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4rem;
+}
+  .about-container2 h2{
+    font-size: 2em;
     color: white;
-    font-family: 'Courgette', cursive;
+    margin: 0.5em 0 0.5em 0;
   }
