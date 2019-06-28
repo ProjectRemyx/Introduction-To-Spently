@@ -132,4 +132,16 @@ p{
   justify-content: center;
   align-items: center;
   padding: 1em;
+  background-color: #2C343B;
+}
+
+.divider{
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.spently-img{
+  max-width: 200px;
 }
