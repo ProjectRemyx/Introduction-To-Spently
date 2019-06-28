@@ -6,7 +6,6 @@ import About from './components/About';
 import Spently from './components/Spently';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <Quote></Quote>
       <About></About>
       <Spently></Spently>
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
     </div>
   );
 }
