@@ -3,6 +3,13 @@ import { connect } from 'react-redux';
 import { getTiers } from '../actions/pricingActions';
 import PropTypes from 'prop-types';
 
+import {
+    Card,
+    CardHeader,
+    CardTitle,
+    CardBody,
+  } from "shards-react";
+
 class Pricing extends Component{
 
     componentDidMount(){
@@ -15,17 +22,13 @@ class Pricing extends Component{
             <div className="pricing-background">
                 <div className="pricing-container">
                     {tiers.map(({ title, description, price}) => (
-                    <div className="pricing-tiers">
-                        <div className="pricing-tier-starter">
-                            <h2>{title}</h2>
-                            <p>
-                            {description}
-                            </p>
-                        </div>
-                        <div className="pricing-tier-starter-price">
-                            <h2>{price}</h2>
-                        </div>
-                    </div>
+                    <Card style={{ maxWidth: "300px", height: "400px", margin: "1em" }}>
+                        <CardHeader>{title}</CardHeader>
+                        <CardBody>
+                            <CardTitle>{price}</CardTitle>
+                            <p>{description}</p>
+                        </CardBody>
+                    </Card>
                     ))}
                 </div>
             </div>

@@ -296,33 +296,24 @@ p{
 .pricing-container{
   padding: 1em;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
   .pricing-container p{
     color: black;
   }
-.pricing-tiers{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+.card{
+  text-align: center;
 }
-.pricing-tier-starter{
-  max-width: 40%;
-  padding: 2em;
-  background-color: #edeff2;
-}
-.pricing-tier-starter-price{
-  margin: 1em 0 1em 0;
-  padding: 2em 4em 2em 4em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  background-color: #d7dcdf;
-}
-  .pricing-tier-starter-price h2{
-    color: white;
+  .card-header{
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .card-body{
+    
+  }
+  .card-title{
+    font-weight: bold;
+    font-size: 2em;
   }

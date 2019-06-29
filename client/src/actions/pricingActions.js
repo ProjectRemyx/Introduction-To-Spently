@@ -1,7 +1,20 @@
-import { GET_TIERS } from './types';
+import axios from 'axios';
+import { GET_TIERS, TIERS_LOADING } from './types';
 
-export const getTiers = () => {
+export const getTiers = () => dispatch => {
+    dispatch(setTiersLoading());
+    axios
+        .get('/api/pricing')
+        .then(res => 
+            dispatch({
+                type: GET_TIERS, 
+                payload: res.data
+            })
+        )
+};
+
+export const  setTiersLoading = () => {
     return {
-        type: GET_TIERS
+        type: TIERS_LOADING
     };
 };
