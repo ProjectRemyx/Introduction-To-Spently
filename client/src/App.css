@@ -274,6 +274,9 @@ p{
 .spently-video{
   height: 100%;
 }
+.title{
+  margin-bottom: 1em;
+}
 .subtitle-one{
   color: #358fe2;
 }

@@ -23,9 +23,10 @@ export default class Spently extends React.Component{
                             </video>
                         </div>
                         <div className="spently-description">
-                            <h2>Drive repeat purchases.</h2>
+                            <h2 className="title">Drive repeat purchases.</h2>
                             <h3 className="subtitle-one">Shopify Notification Emails</h3>
                             <ul>
+                                <li>Fully customizable </li>
                                 <li>Event-based upsells</li>
                                 <li>Discounts</li>
                                 <li>Referrals</li>
