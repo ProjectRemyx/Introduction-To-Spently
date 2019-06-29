@@ -1,27 +1,45 @@
-import React from "react";
+import React, { Component } from "react";
+import { connect } from 'react-redux';
+import { getTiers } from '../actions/pricingActions';
+import PropTypes from 'prop-types';
 
-export default class Pricing extends React.Component{
+class Pricing extends Component{
+
+    componentDidMount(){
+        this.props.getTiers();
+    }
+
     render(){
+        const { tiers } = this.props.tier;
         return(
             <div className="pricing-background">
                 <div className="pricing-container">
+                    {tiers.map(({ title, description, price}) => (
                     <div className="pricing-tiers">
                         <div className="pricing-tier-starter">
-                            <h2>STARTER</h2>
+                            <h2>{title}</h2>
                             <p>
-                                This package supports up to 50 monthly orders. You gain access to:  
-                                email notifications template themes, recommended products, 
-                                unique discount codes, store and customer analytics
-                                as well as support docs in help center.
-
+                            {description}
                             </p>
                         </div>
                         <div className="pricing-tier-starter-price">
-                            <h2>$0.00</h2>
+                            <h2>{price}</h2>
                         </div>
                     </div>
+                    ))}
                 </div>
             </div>
         );
     }
 }
+
+Pricing.propTypes = {
+    getTiers: PropTypes.func.isRequired,
+    tier: PropTypes.object.isRequired
+}
+
+const mapStateToProps = (state) => ({
+    tier: state.tier
+});
+
+export default connect(mapStateToProps, { getTiers })(Pricing);

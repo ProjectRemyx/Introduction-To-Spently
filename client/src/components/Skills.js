@@ -7,7 +7,7 @@ export default class Skills extends React.Component{
                 <div className="skills-divider">
                         <img src={require('../imgs/Huh.png')} className="rabbit-img" alt="Rabbit headshot"/>
                     <h2> 
-                        Oh right, I almost forgot to mention... <br></br> <h2 className="skills-title">I'm a back-end developer!</h2>
+                        Oh right, I'm also a... <br></br> <h2 className="skills-title">Back-end Developer!</h2>
                     </h2>
                 </div>
                 <div className="skills-container">
