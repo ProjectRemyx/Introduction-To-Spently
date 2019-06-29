@@ -26,7 +26,7 @@ export default class Spently extends React.Component{
                             <h2 className="title">Drive repeat purchases.</h2>
                             <h3 className="subtitle-one">Shopify Notification Emails</h3>
                             <ul>
-                                <li>Fully customizable </li>
+                                <li>Fully customizable</li>
                                 <li>Event-based upsells</li>
                                 <li>Discounts</li>
                                 <li>Referrals</li>
@@ -41,6 +41,7 @@ export default class Spently extends React.Component{
                             <ul>
                                 <li>Measure performance and conversions</li>
                                 <li>Get insight into opens, clicks and ROI from notifications</li>
+                                <li>Improve your business with statistics</li>
                             </ul>
                             <h3 className="subtitle-four">Email Template Builder</h3>
                             <ul>
