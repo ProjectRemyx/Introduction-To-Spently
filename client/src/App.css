@@ -222,6 +222,15 @@ p{
   /* background-color:#2C343B; */
   background-color: white;
 }
+.spently-divider{
+  margin: 0.1em 0 0.1em 0;
+  background-color: black;
+  text-align: center;
+  padding: 1em;
+}
+  .spently-divider h2{
+    color: white;
+  }
 .spently-container{
   height: 100%;
   width: 100%;
@@ -231,15 +240,49 @@ p{
   align-items: center;
   padding: 1em;
   background-color: #2C343B;
+  color: white;
 }
-
-.divider{
-  border: 1px solid black;
-  background-color: white;
-  text-align: center;
+.spently-intro{
+  margin: 1em;
   padding: 1em;
 }
-
 .spently-img{
-  max-width: 200px;
+  max-width: 500px;
+}
+.shopify-container{
+  text-align: center;
+}
+.shopify-img{
+  max-width: 250px;
+}
+.spently-row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.spently-description{
+  padding: 2em;
+  align-self: start;
+}
+  .spently-description h2{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+.spently-video{
+  height: 100%;
+}
+.subtitle-one{
+  color: #358fe2;
+}
+.subtitle-two{
+  color: #33cc99;
+}
+.subtitle-three{
+  color: #f59c1b;
+}
+.subtitle-four{
+  color: #CC0000;
 }
