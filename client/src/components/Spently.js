@@ -9,7 +9,7 @@ export default class Spently extends React.Component{
                 </div>
                 <div className="spently-container">
                     <div className="spently-intro">
-                        <img src={require('../imgs/spently.png')} className="spently-img" alt="Spently"/>
+                        <a href="https://spently.com/"><img src={require('../imgs/spently.png')} className="spently-img" alt="Spently"/></a>
                         <h2>Supercharged Store E-mails App</h2>
                         <h3>Designed for:</h3>
                         <div className="shopify-container">

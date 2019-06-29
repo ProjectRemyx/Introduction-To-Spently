@@ -5,6 +5,7 @@ import Quote from './components/Quote';
 import About from './components/About';
 import Skills from './components/Skills';
 import Spently from './components/Spently';
+import Pricing from './components/Pricing';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Spently></Spently>
+      <Pricing></Pricing>
     </div>
   );
 }
