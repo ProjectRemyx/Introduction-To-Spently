@@ -6,6 +6,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Spently from './components/Spently';
 import Pricing from './components/Pricing';
+import Contact from './components/Contact';
+import Footer from './components/FooterBar';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -18,12 +20,14 @@ function App() {
     <Provider store = { store }>
       <div className="App">
         <AppNavbar></AppNavbar>
-        <Header></Header>
-        <Quote></Quote>
-        <About></About>
-        <Skills></Skills>
-        <Spently></Spently>
-        <Pricing></Pricing>
+          <Header></Header>
+          <Quote></Quote>
+          <About></About>
+          <Skills></Skills>
+          <Spently></Spently>
+          <Pricing></Pricing>
+          <Contact></Contact>
+        <Footer></Footer>
       </div>
     </Provider>
   );
