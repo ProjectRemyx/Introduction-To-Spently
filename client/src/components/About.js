@@ -7,7 +7,7 @@ export default class About extends React.Component{
                 <div classNamme="about-column">
                     <div className="about-container">
                         <div className="about-row-item">
-                            <img src={require('../imgs/Wave.png')} alt="Wave"/>                    
+                            <img src={require('../imgs/Wave.png')} alt="Wave"/>               
                         </div>
                         <div className="about-row-item">
                             <h2>
@@ -24,17 +24,17 @@ export default class About extends React.Component{
                     </div>
                     <div className="about-container2">
                         <div className="about-row-item">
-                            <h2>Quick Facts:</h2>
+                                <h2>Quick Facts:</h2>
                         </div>
-                        <div className="about-row-item">
-                            <ul>
-                                <li>Favorite Movie(s) - Fast and the Furious Franchise</li>
-                                <li>Favorite Game - Monster Hunter World</li>
-                                <li>Favorite Food - Shawarma</li>
-                                <li>Favorite Color - Red</li>
-                                <li>Favorite Animal - Wolf</li>
-                            </ul>
-                        </div>
+                            <div className="about-row-item">
+                                <ul>
+                                    <li>Favorite Movie(s) - Fast and the Furious Franchise</li>
+                                    <li>Favorite Game - Monster Hunter World</li>
+                                    <li>Favorite Food - Shawarma</li>
+                                    <li>Favorite Color - Red</li>
+                                    <li>Favorite Animal - Wolf</li>
+                                </ul>
+                            </div>
                     </div>
                 </div>
             </div>

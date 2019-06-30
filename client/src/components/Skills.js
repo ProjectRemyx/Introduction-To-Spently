@@ -1,5 +1,9 @@
 import React from "react";
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Jump from 'react-reveal/Jump';
+import Tada from 'react-reveal/Tada';
+import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
 
 export default class Skills extends React.Component{
     render(){
@@ -7,10 +11,12 @@ export default class Skills extends React.Component{
             <div className="skills-background">
                 <div className="skills-divider">
                     <ScrollableAnchor id={'skillsSection'}>
-                        <img src={require('../imgs/Huh.png')} className="rabbit-img" alt="Rabbit headshot"/>
+                        <Jump>
+                            <img src={require('../imgs/Huh.png')} className="rabbit-img" alt="Rabbit headshot"/>
+                        </Jump>
                     </ScrollableAnchor>
                     <h2> 
-                        Oh right, I'm also a... <br></br> <h2 className="skills-title">Back-end Developer!</h2>
+                        Oh right, I'm also a... <br></br> <Tada><h2 className="skills-title">Back-end Developer!</h2></Tada>
                     </h2>
                 </div>
                 <div className="skills-container">
@@ -36,7 +42,7 @@ export default class Skills extends React.Component{
                     </div>
                     <div className="professional-background">
                         <div className="professional-background-item">
-                            <img src={require('../imgs/project.PNG')} className="skills-img" alt="Unity3D Game Development"/>    
+                            <img src={require('../imgs/project.PNG')} className="skills-img" alt=".NET Core 2.0 Development"/>    
                         </div>
                         <div className="professional-background-item">
                             <h2>Start of the real journey</h2>
@@ -59,9 +65,11 @@ export default class Skills extends React.Component{
                     <div className="present-background">
                         <div className="present-background-item">
                             <h2>Who I am today</h2>
-                            <div className="avatar-container">
-                                <img src={require('../imgs/Headshot.png')} className="avatar" alt="Unity3D Game Development"/>    
-                            </div>
+                            <Fade>
+                                <div className="avatar-container">
+                                        <img src={require('../imgs/Headshot.png')} className="avatar" alt="Headshot"/>    
+                                </div>
+                            </Fade>
                             <div>
                                 <p>
                                     I'm currently at the end of my studies at Humber College's web development program. 
@@ -77,21 +85,23 @@ export default class Skills extends React.Component{
                         </div>
                         <div className="present-background-skills">
                             <ul>
-                                <li><img src={require('../imgs/skills/net.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/php.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/oracle.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/xml.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/mysql.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/microsoft-sql-server.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/jquery.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/javascript.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/html-5.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/css-3.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/git.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/bootstrap-4.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/mongodb.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/react.svg')} className="skill-avatars" alt=""/></li>
-                                <li><img src={require('../imgs/skills/node.svg')} className="skill-avatars" alt=""/></li>
+                                <Roll left cascade>
+                                    <li><img src={require('../imgs/skills/net.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/php.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/oracle.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/xml.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/mysql.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/microsoft-sql-server.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/jquery.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/javascript.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/html-5.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/css-3.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/git.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/bootstrap-4.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/mongodb.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/react.svg')} className="skill-avatars" alt=""/></li>
+                                    <li><img src={require('../imgs/skills/node.svg')} className="skill-avatars" alt=""/></li>
+                                </Roll>
                             </ul>
                         </div>
                     </div>
