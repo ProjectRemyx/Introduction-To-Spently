@@ -3,13 +3,6 @@ import { connect } from 'react-redux';
 import { getTiers } from '../actions/pricingActions';
 import PropTypes from 'prop-types';
 
-import {
-    Card,
-    CardHeader,
-    CardTitle,
-    CardBody,
-  } from "shards-react";
-
 class Pricing extends Component{
 
     componentDidMount(){
@@ -21,14 +14,23 @@ class Pricing extends Component{
         return(
             <div className="pricing-background">
                 <div className="pricing-container">
-                    {tiers.map(({ title, description, price}) => (
-                    <Card style={{ maxWidth: "300px", height: "400px", margin: "1em" }}>
-                        <CardHeader>{title}</CardHeader>
-                        <CardBody>
-                            <CardTitle>{price}</CardTitle>
-                            <p>{description}</p>
-                        </CardBody>
-                    </Card>
+                    {tiers.sort((a, b) => (a.order > b.order)).map(({ title, description, price}) => (
+                        <div className="plan">
+                            <header>
+                                <h4 className="plan-title">
+                                {title}
+                                </h4>
+                                <div className="plan-cost"><span className="plan-price">{price}</span><span className="plan-type">/month</span></div>
+                            </header>
+                            <ul className="plan-features">
+                                <li><i className="ion-checkmark"> </i>{description.bulletOne}</li>
+                                <li><i className="ion-checkmark"> </i>{description.bulletTwo}</li>
+                                <li><i className="ion-checkmark"> </i>{description.bulletThree}</li>
+                                <li><i className="ion-checkmark"> </i>{description.bulletFour}</li>
+                                <li><i className="ion-checkmark"> </i>{description.bulletFive}</li>
+                            </ul>
+                            <div className="plan-select"><a href="https://apps.shopify.com/spently">Select Plan</a></div>
+                        </div>
                     ))}
                 </div>
             </div>

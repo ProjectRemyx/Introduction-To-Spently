@@ -7,12 +7,28 @@ const PricingSchema = new Schema({
         required: true
     },
     description:{
-        type: String,
-        required: true
+        bulletOne:{
+            type: String
+        },
+        bulletTwo:{
+            type: String
+        },
+        bulletThree:{
+            type: String
+        },
+        bulletFour:{
+            type: String
+        },
+        bulletFive:{
+            type: String
+        }
     },
     price:{
         type: String,
         required: true
+    },
+    order: {
+        type: Number
     }
 });
 

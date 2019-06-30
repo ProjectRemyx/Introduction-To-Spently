@@ -22,6 +22,7 @@ router.post('/', (req, res) => {
             title: req.body.title,
             description: req.body.description,
             price: req.body.price,
+            number: req.body.number
         });  
         //Take the pricing tier and spit it out as a json
         newPricing.save().then(pricing => res.json(pricing));
