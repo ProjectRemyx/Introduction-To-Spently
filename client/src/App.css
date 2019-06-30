@@ -29,6 +29,7 @@ p{
     font-size: 5em;
     color: white;
   }
+
   .header-container h2{
     font-size: 2em;
     color: white;
@@ -462,4 +463,131 @@ p{
   background-color: white;
   text-align: center;
   padding: 1em;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 856px){
+  .about-container{
+    padding: 3rem;
+  }
+  .about-container2{
+    padding: 3rem;
+  }
+}
+
+@media only screen and (max-width:562px){
+  .header-container h1{
+    font-size: 3em;
+  }
+  .header-container h2{
+    font-size: 1.5em;
+  }
+  .header-container h3{
+    font-size: 1em;
+  }
+  .about-container{
+    padding: 2.5rem;
+  }
+  .about-container2{
+    padding: 2.5rem;
+  }
+  .about-row-item{
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 530px){
+  .professional-background-item p{
+    width: 400px;
+  }
+  .skills-img{
+    max-width: 400px;
+  }
+  .spently-intro h2{
+    text-align: center;
+  }
+  .spently-intro h3{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 462px){
+  .spently-img{
+    max-width: 400px;
+  }
+  .spently-video{
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .header-container{
+    padding: 2rem;
+  }
+  .header-container h1{
+    font-size: 2em;
+  }
+  .header-container h2{
+    font-size: 1.5em;
+  }
+  .header-container h3{
+    font-size: 1em;
+  }
+  .quote-container{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+  }
+  .quote-container h2{
+    font-size: 1.25rem;
+  }
+  .quote-container h3{
+    font-size: 1rem;
+  }
+  .about-container{
+    padding: 1.5rem;
+  }
+  .about-container2{
+    padding: 1.5rem;
+  }
+  .about-row-item{
+    margin: 0;
+  }
+    .about-row-item h2{
+      font-size: 1.5rem;
+    }
+  .professional-background-item h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .professional-background-item p{
+    font-size: 1rem;
+    text-align: center;
+    width: 250px;
+  }
+  .professional-background-item img{
+    max-width: 250px;
+  }
+  .present-background-item h2{
+    font-size: 2em;
+  }
+  .avatar-container{
+    width: 100%;
+  }
+  .spently-img{
+    max-width: 250px;
+  }
+  .spently-intro h2{
+    font-size: 1.1rem;
+  }
+  .spently-intro h3{
+    font-size: 1.25rem;
+  }
+  .shopify-img{
+    max-width: 175px;
+  }
+  .spently-row video{
+    width: 250px;
+  }
+  .spently-description h2{
+    font-size: 2rem;
+  }
 }
