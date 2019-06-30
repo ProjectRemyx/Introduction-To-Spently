@@ -1,11 +1,14 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 export default class Spently extends React.Component{
     render(){
         return(
             <div className="spently-background">
                 <div className="spently-divider">
-                    <h2>Enough about me, let's talk about Spently!</h2>
+                    <ScrollableAnchor id={'spentlySection'}>
+                        <h2>Enough about me, let's talk about Spently!</h2>
+                    </ScrollableAnchor>
                 </div>
                 <div className="spently-container">
                     <div className="spently-intro">

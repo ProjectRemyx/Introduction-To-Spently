@@ -12,31 +12,26 @@ export default class AppNavbar extends React.Component {
   render() {
     return (
       <Navbar type="dark" theme="dark" expand="md" className="top-nav">
-        <NavbarBrand href="#">Jing Cheng</NavbarBrand>
+        <NavbarBrand href="http://jingkcheng.com">Jing Cheng</NavbarBrand>
           <Nav navbar className="ml-auto">
             <NavItem>
-              <NavLink active href="#">
+              <NavLink active href=".">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">
+              <NavLink href="#aboutSection">
                 About Me
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">
+              <NavLink href="#skillsSection">
                 Skills
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">
+              <NavLink href="#spentlySection">
                 Spently
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">
-                Contact
               </NavLink>
             </NavItem>
           </Nav>

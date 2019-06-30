@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 export default class Quote extends React.Component{
     render(){
@@ -6,7 +7,9 @@ export default class Quote extends React.Component{
             <div className="quote-background">
                 <div className="quote-container">
                     <div>
+                        <ScrollableAnchor id={'aboutSection'}>
                         <h3>My Favorite Quote:</h3>
+                        </ScrollableAnchor>
                     </div>
                     <div>
                         <h2>

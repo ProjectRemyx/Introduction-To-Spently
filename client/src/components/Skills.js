@@ -1,11 +1,14 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 export default class Skills extends React.Component{
     render(){
         return(
             <div className="skills-background">
                 <div className="skills-divider">
+                    <ScrollableAnchor id={'skillsSection'}>
                         <img src={require('../imgs/Huh.png')} className="rabbit-img" alt="Rabbit headshot"/>
+                    </ScrollableAnchor>
                     <h2> 
                         Oh right, I'm also a... <br></br> <h2 className="skills-title">Back-end Developer!</h2>
                     </h2>
