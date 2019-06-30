@@ -10,11 +10,11 @@ export default class Skills extends React.Component{
         return(
             <div className="skills-background">
                 <div className="skills-divider">
-                    <ScrollableAnchor id={'skillsSection'}>
                         <Jump>
+                        <ScrollableAnchor id={'skillsSection'}>
                             <img src={require('../imgs/Huh.png')} className="rabbit-img" alt="Rabbit headshot"/>
+                        </ScrollableAnchor>
                         </Jump>
-                    </ScrollableAnchor>
                     <h2> 
                         Oh right, I'm also a... <br></br> <Tada><h2 className="skills-title">Back-end Developer!</h2></Tada>
                     </h2>
