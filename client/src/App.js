@@ -8,6 +8,7 @@ import Spently from './components/Spently';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/FooterBar';
+import ScrollUpButton from "react-scroll-up-button";
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -27,6 +28,7 @@ function App() {
           <Spently></Spently>
           <Pricing></Pricing>
           <Contact></Contact>
+          <ScrollUpButton></ScrollUpButton>
         <Footer></Footer>
       </div>
     </Provider>
