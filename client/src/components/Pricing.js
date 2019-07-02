@@ -16,7 +16,7 @@ class Pricing extends Component{
             <div className="pricing-background">
             <Bounce right cascade>
                 <div className="pricing-container">
-                        {tiers.sort((a, b) => (a.order > b.order)).map(({ title, description, price}) => (
+                        {tiers.sort((a, b) => (a.order - b.order)).map(({ title, description, price}) => (
                             <div className="plan">
                                 <header>
                                     <h4 className="plan-title">
