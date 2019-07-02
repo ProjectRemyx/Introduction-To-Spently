@@ -73,13 +73,13 @@ export default class Skills extends React.Component{
                             <div>
                                 <p>
                                     I'm currently at the end of my studies at Humber College's web development program. 
-                                    During my time studying I've learned how to use HTML, CSS, JavaScript, PHP and C# 
-                                    proficiently and know how to make database driven applications using MySQL and MSSQL. 
-                                    I also know how to use APIs and work with JSON responses. Some other neat things 
-                                    I know are Git, jQuery, Ajax and various front-end frameworks. On my free time, 
-                                    I have learned how to use MERN (MongoDb, Express, React and Node.js). My favorite development 
-                                    framework is ASP.NET and I plan to become an expert in developing applications with it. 
-                                    Below you can see the list of web development related skills I've picked up along the way in image form.
+                                    During my time studying, I've learned how to use HTML, CSS, JavaScript, PHP and C# 
+                                    proficiently. I've learned how to integrate APIs and work with JSON responses as well 
+                                    as make database driven applications using MySQL and MSSQL. Some other neat things 
+                                    I know how to use are Git, jQuery, Ajax and various front-end frameworks. On my free time 
+                                    I like to learn new things. Recently, I have learned how to use MERN (MongoDb, Express, React and Node.js). 
+                                    My favorite development framework is ASP.NET and I plan to become an expert in developing applications with it. 
+                                    Below you can see the list of web development related skills I've picked up along the way.
                                 </p>
                             </div>
                         </div>
