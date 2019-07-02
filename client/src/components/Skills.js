@@ -31,8 +31,8 @@ export default class Skills extends React.Component{
                                     for development. During my time as a game developer, I was mainly a graphics programmer that
                                     specialized in doing rendering effects such as: Shadow Mapping, Cel Shading, Bloom and other 
                                     lighting effects. Essentially, a lot of work with matrices, cameras and algorithms. I also 
-                                    learned how to do other cool things unrelated to programming such as 3D modeling in Maya 
-                                    including model texturing/animation and using Adobe Photoshop.
+                                    learned how to do other cool things unrelated to programming. 3D model texturing and animation 
+                                    in Maya and using Adobe Photoshop are a couple of examples.
                                 </p>
                             </div>
                         </div>
@@ -51,11 +51,11 @@ export default class Skills extends React.Component{
                                     After I graduated, I found myself a job at the Toronto District School Board. Initially,
                                     I was doing work with Microsoft Access databases and programming using Visual Basic. I 
                                     found this work very unengaging. I would finish work very quickly and find myself with 
-                                    too much spare time. By about 2 months in I was tranferred to another location where I 
+                                    too much spare time. 2 months in I was tranferred to another location where I 
                                     was given web development work to do by the Application Development department. This was
                                     the start of my passion for developing web applications. After working there for the remainder
                                     of the internship, I was given a contract extension as a "Jr. Programmer Analyst" for the 
-                                    remainder of the year. After my contract expired, I started looking for a job again but found
+                                    rest of the year. After my contract expired, I started looking for a job again and found
                                     myself creating additional web applications using .NET Core. I then decided to go to school 
                                     for web development as I wanted professional education on best practices. 
                                 </p>
@@ -76,7 +76,7 @@ export default class Skills extends React.Component{
                                     During my time studying, I've learned how to use HTML, CSS, JavaScript, PHP and C# 
                                     proficiently. I've learned how to integrate APIs and work with JSON responses as well 
                                     as make database driven applications using MySQL and MSSQL. Some other neat things 
-                                    I know how to use are Git, jQuery, Ajax and various front-end frameworks. On my free time 
+                                    I know how to use are Git, jQuery, Ajax and various front-end frameworks. In my free time 
                                     I like to learn new things. Recently, I have learned how to use MERN (MongoDb, Express, React and Node.js). 
                                     My favorite development framework is ASP.NET and I plan to become an expert in developing applications with it. 
                                     Below you can see the list of web development related skills I've picked up along the way.

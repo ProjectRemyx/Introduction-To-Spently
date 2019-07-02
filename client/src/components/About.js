@@ -14,7 +14,7 @@ export default class About extends React.Component{
                                 About Me
                             </h2>
                             <p>
-                                I'm a big gamer and I love E-Sports. Currently, I'm playing Epic Seven
+                                I'm a big gamer and I love E-Sports. Currently I'm playing Epic Seven,
                                 but before that I was playing Monster Hunter World and Apex Legends. 
                                 Guitar is a hobby of mine as well as going to the gym. I am also
                                 highly likely to take the title of: "The person you know who can eat the most food"
